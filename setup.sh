@@ -13,10 +13,6 @@ brew bundle
 # Path stuff
 echo  'export PATH="/usr/local/anaconda3/bin:$PATH"' >> ~/.zshrc
 
-# Git stuff
-git config --global user.name "Adrian C"
-git config --global user.email adr.ca@live.com
-
 echo Setup zshell
 sudo echo '/usr/local/bin/zsh' >> /etc/shells
 chsh -s /usr/local/bin/zsh
