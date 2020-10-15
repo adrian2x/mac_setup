@@ -16,6 +16,7 @@ echo  'export PATH="/usr/local/anaconda3/bin:$PATH"' >> ~/.zshrc
 echo Setup zshell
 sudo echo '/usr/local/bin/zsh' >> /etc/shells
 chsh -s /usr/local/bin/zsh
+echo 'export ZSH_DISABLE_COMPFIX="true"' >> ~/.zshrc
 # ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # plugins
